@@ -1,0 +1,71 @@
+/* Generic */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+body {
+    overflow: scroll;
+    background-color: #000;
+}
+
+a {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+/* Content */
+.content {
+}
+
+/* Section */
+.section {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex: 0 0 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    opacity: .75;
+}
+    .header a {
+        font-size: 22px;
+    }
+    .header .title {
+        font-size: 32px;
+    }
+
+@media screen and (min-width: 768px) {
+    .header {
+        font-size: 48px;
+    }
+}
+
+/* Footer */
+.footer {
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    padding: 1rem;
+}

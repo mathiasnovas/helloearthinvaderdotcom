@@ -21,7 +21,7 @@ $pageTitle = $currentPage['slug'] === 'home'
         <title><?= $pageTitle ?></title>
 
         <!-- Stylesheets -->
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono:400,700&display=swap" rel="stylesheet">
         <link href="/assets/css/app.css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>

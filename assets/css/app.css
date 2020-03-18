@@ -63,13 +63,27 @@ img {
 
 /* Footer */
 .main-footer {
+    display: none;
     margin-top: 2rem;
-
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid #eee;
+    font-size: smaller;
+}
+body:not(.page-home) .main-footer {
+    display: block;
 }
     @media screen and (min-width: 767px) {
         .main-footer {
             margin-top: 4rem;
         }
+    }
+    .main-footer a {
+        color: #333;
+        margin-right: 1rem;
+    }
+    .main-footer a:last-child {
+        margin-right: 0;
     }
 
 /* Header */
@@ -136,6 +150,9 @@ body.page-home .header {
     background-color: #fff;
     z-index: 1;
 }
+body:not(.page-home) .main-navigation {
+    border-bottom: 1px solid #eee;
+}
     @media screen and (min-width: 767px) {
         .main-navigation {
             padding: .25rem 1rem;
@@ -154,10 +171,11 @@ body.page-home .header {
     .main-navigation a {
         display: inline-block;
         margin-right: 1rem;
-        font-size: 14px;
+        font-size: smaller;
         color: #333;
         text-transform: uppercase;
     }
     .main-navigation a.current-page {
         text-decoration: underline;
+        font-weight: bold;
     }

@@ -6,7 +6,7 @@
     </video>
 
     <h2>Pics</h2>
-    <p>Taken by the lovely <a href="https://www.instagram.com/toniagost/" target="_blank">toni</a>.</p>
+    <p>By the lovely <a href="https://www.instagram.com/toniagost/" target="_blank">toni</a>.</p>
 
     <figure data-aos="fade-up">
         <img src="/assets/images/matty-3.JPG" alt="mattys doin smth">

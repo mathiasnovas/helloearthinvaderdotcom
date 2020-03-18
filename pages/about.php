@@ -1,7 +1,7 @@
 <div class="container">
     <p>Independent pop artist from Norway.</p>
 
-    <video autoplay muted loop style="max-width: 100%; width; 100%; margin-top: 1rem;">
+    <video autoplay muted loop playsinline style="max-width: 100%; width; 100%; margin-top: 1rem;">
         <source src="/assets/video/intro.mp4">
     </video>
 

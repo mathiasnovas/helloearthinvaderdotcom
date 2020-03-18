@@ -30,7 +30,7 @@ $pageTitle = $currentPage['slug'] === 'home'
             <?php if ($currentPage['slug'] === 'home'): ?>
                 <section class="section">
                     <div class="frontpage-video">
-                        <video autoplay muted loop>
+                        <video autoplay muted loop playsinline>
                             <source src="/assets/video/bg.mp4">
                         </video>
                     </div>

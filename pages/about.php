@@ -7,4 +7,7 @@
     <video autoplay muted loop style="max-width: 100%; width; 100%; margin-top: 1rem;">
         <source src="/assets/video/intro.mp4">
     </video>
+
+    <h2>Contact</h2>
+    <p>management@helloearthinvader.com</p>
 </div>

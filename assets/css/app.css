@@ -91,7 +91,7 @@ body.page-home .header {
 
     @media screen and (min-width: 1024px) {
         .header .h-display {
-            margin-top: 40px;
+            margin-top: 60px;
             font-size: 120px;
         }
     }
@@ -103,6 +103,7 @@ body.page-home .header {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 20px solid white;
 }
     .frontpage-video video {
         width: 100%;

@@ -23,8 +23,9 @@ $pageTitle = $currentPage['slug'] === 'home'
         <!-- Stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono&display=swap" rel="stylesheet">
         <link href="/assets/css/app.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
-    <body class="page-<?= $currentPage['slug'] ?>">
+    <body class="page-<?= $currentPage['slug'] ?>" data-aos="fade-in">
         <div class="content">
             <?php if ($currentPage['slug'] === 'home'): ?>
                 <section class="section">
@@ -42,7 +43,8 @@ $pageTitle = $currentPage['slug'] === 'home'
 
             <?php include_once('pages/' . $currentPage['slug'] . '.php'); ?>
             <?php include_once('components/menu.php'); ?>
-            <?php include_once('components/footer.php'); ?>
         </div>
+
+        <?php include_once('components/footer.php'); ?>
     </body>
 </html>

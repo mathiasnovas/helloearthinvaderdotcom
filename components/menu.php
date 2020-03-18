@@ -17,7 +17,7 @@
             <a target="_blank" href="https://instagram.com/helloearthinvaderdotcom">
                 <small>Instagram</small>
             </a>
-            <a target="_blank" href="https://instagram.com/helloearthinvaderdotcom">
+            <a target="_blank" href="https://www.facebook.com/helloearthinvader">
                 <small>Facebook</small>
             </a>
         </div>

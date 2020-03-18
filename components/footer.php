@@ -1,5 +1,8 @@
-<footer class="main-footer">
-    <div class="container">
-        <p><small>DO SUPPORT — EXTINCTION REBELLION — ANIMAL LIBERATION FRONT</small></p>
-    </div>
-</footer>
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2000
+    });
+</script>

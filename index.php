@@ -38,10 +38,11 @@ $pageTitle = $currentPage['slug'] === 'home'
                 </section>
             <?php else: ?>
                 <?php include_once('components/header.php'); ?>
-                <?php include_once('pages/' . $currentPage['slug'] . '.php'); ?>
             <?php endif; ?>
 
+            <?php include_once('pages/' . $currentPage['slug'] . '.php'); ?>
             <?php include_once('components/menu.php'); ?>
+            <?php include_once('components/footer.php'); ?>
         </div>
     </body>
 </html>

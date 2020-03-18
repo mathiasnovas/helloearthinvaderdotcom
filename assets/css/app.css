@@ -38,6 +38,16 @@ a {
         text-decoration: underline;
     }
 
+figure {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* Section */
 .section {
     height: 100vh;
@@ -52,12 +62,15 @@ a {
 }
 
 /* Footer */
-.footer {
-    height: 100%;
-    width: 100%;
-    margin-top: auto;
-    padding: 1rem;
+.main-footer {
+    margin-top: 2rem;
+
 }
+    @media screen and (min-width: 767px) {
+        .main-footer {
+            margin-top: 4rem;
+        }
+    }
 
 /* Header */
 .header {
@@ -143,6 +156,7 @@ body.page-home .header {
         margin-right: 1rem;
         font-size: 14px;
         color: #333;
+        text-transform: uppercase;
     }
     .main-navigation a.current-page {
         text-decoration: underline;

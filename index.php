@@ -17,14 +17,12 @@ $pageTitle = $currentPage['slug'] === 'home'
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Title -->
         <title><?= $pageTitle ?></title>
 
         <!-- Stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono&display=swap" rel="stylesheet">
         <link href="/assets/css/app.css" rel="stylesheet">
-
-        <!-- JavaScript -->
-        <!-- <script src="/assets/js/jquery-3.4.1.min.js"></script> -->
     </head>
     <body class="page-<?= $currentPage['slug'] ?>">
         <div class="content">

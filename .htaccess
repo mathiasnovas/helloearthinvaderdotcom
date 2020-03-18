@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^$ index.php?p=home
+RewriteRule ^about$ index.php?p=about
+RewriteRule ^press$ index.php?p=press

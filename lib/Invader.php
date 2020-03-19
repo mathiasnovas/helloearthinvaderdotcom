@@ -14,7 +14,7 @@ class Invader {
             ],
             'press' => [
                 'slug' => 'press',
-                'title' => 'Press',
+                'title' => 'Press'
             ],
         ];
 

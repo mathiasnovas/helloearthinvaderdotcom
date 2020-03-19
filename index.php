@@ -16,6 +16,12 @@ $pageTitle = $currentPage['slug'] === 'home'
         <!-- Meta -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="<?= $pageTitle ?>">
+        <meta property="og:image" content="/assets/images/matty-20 2.JPG">
+
+        <?php if (isset($currentPage['description'])): ?>
+            <meta property="og:description" content="<?= $currentPage['description'] ?>">
+        <?php endif; ?>
 
         <!-- Title -->
         <title><?= $pageTitle ?></title>

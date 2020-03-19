@@ -2,12 +2,14 @@
     <div class="container">
         <div class="main-navigation-section">
             <?php foreach (Invader::getPages() as $page): ?>
-                <a
-                    class="<?= $page['slug'] === $currentPage['slug'] ? 'current-page' : ''; ?>"
-                    href="<?= $page['slug'] === 'home' ? '/' : '/' . $page['slug'] ?>"
-                >
-                    <?= $page['title'] ?>
-                </a>
+                <?php if (!isset($page['hide']) || !$page['hide']): ?>
+                    <a
+                        class="<?= $page['slug'] === $currentPage['slug'] ? 'current-page' : ''; ?>"
+                        href="<?= $page['slug'] === 'home' ? '/' : '/' . $page['slug'] ?>"
+                    >
+                        <?= $page['title'] ?>
+                    </a>
+                <?php endif; ?>
             <?php endforeach; ?>
         </div>
 

@@ -16,6 +16,11 @@ class Invader {
                 'slug' => 'press',
                 'title' => 'Press'
             ],
+            '404' => [
+                'slug' => '404',
+                'title' => '404 - Page not found :-(',
+                'hide' => true
+            ]
         ];
 
         return $pages;

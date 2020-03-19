@@ -1,4 +1,9 @@
+ErrorDocument 404 /404/
+
 RewriteEngine On
 RewriteRule ^$ index.php?p=home
 RewriteRule ^about$ index.php?p=about
 RewriteRule ^press$ index.php?p=press
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ index.php?p=404 [L]

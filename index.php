@@ -30,6 +30,16 @@ $pageTitle = $currentPage['slug'] === 'home'
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono:400,700&display=swap" rel="stylesheet">
         <link href="/assets/css/vendor/aos.css" rel="stylesheet" />
         <link href="/assets/css/app.css" rel="stylesheet">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161183810-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-161183810-1');
+        </script>
     </head>
     <body class="page-<?= $currentPage['slug'] ?>" data-aos="fade-in">
         <div class="content">

@@ -22,8 +22,8 @@ $pageTitle = $currentPage['slug'] === 'home'
 
         <!-- Stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono:400,700&display=swap" rel="stylesheet">
+        <link href="/assets/css/vendor/aos.css" rel="stylesheet" />
         <link href="/assets/css/app.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="page-<?= $currentPage['slug'] ?>" data-aos="fade-in">
         <div class="content">

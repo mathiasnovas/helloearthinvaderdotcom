@@ -23,6 +23,9 @@ $pageTitle = $currentPage['slug'] === 'home'
             <meta property="og:description" content="<?= $currentPage['description'] ?>">
         <?php endif; ?>
 
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/favicon.png" />
+
         <!-- Title -->
         <title><?= $pageTitle ?></title>
 

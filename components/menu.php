@@ -15,6 +15,7 @@
 
         <div class="main-navigation-section some">
             <a target="_blank" href="https://instagram.com/helloearthinvaderdotcom">Instagram</a>
+            <a target="_blank" href="https://soundcloud.com/helloearthinvader">SoundCloud</a>
             <a target="_blank" href="https://www.facebook.com/helloearthinvader">Facebook</a>
             <a target="_blank" href="https://www.patreon.com/helloearthinvader">Patreon</a>
         </div>

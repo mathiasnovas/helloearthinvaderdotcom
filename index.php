@@ -49,6 +49,10 @@ $pageTitle = $currentPage['slug'] === 'home'
             <?php if ($currentPage['slug'] === 'home'): ?>
                 <section class="section">
                     <div class="frontpage-video">
+                        <div class="frontpage-video__links">
+                            <a href="https://youtu.be/EgdoY_yquog" target="_blank">Watch the video</a>
+                            <a href="https://ampl.ink/G6MaX" target="_blank">Listen to the single</a>
+                        </div>
                         <video autoplay muted loop playsinline>
                             <source src="/assets/video/bg.mp4">
                         </video>

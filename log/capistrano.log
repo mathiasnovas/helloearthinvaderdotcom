@@ -1,0 +1,144 @@
+# Logfile created on 2020-09-01 14:03:31 +0200 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-09-01 14:03:31 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [541a98d2] Running /usr/bin/env mkdir -p /tmp as serverpilot@157.230.116.54
+ DEBUG [541a98d2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [541a98d2] Finished in 0.590 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 0.0%
+  INFO Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 100.0%
+  INFO [a74585ac] Running /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh as serverpilot@157.230.116.54
+ DEBUG [a74585ac] Command: /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh
+  INFO [a74585ac] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [ba0b4422] Running /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD as serverpilot@157.230.116.54
+ DEBUG [ba0b4422] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD )
+ DEBUG [ba0b4422] 	2ee62b327afe56b12c1a981d1fbb602cba1e42ff	HEAD
+  INFO [ba0b4422] Finished in 1.393 seconds with exit status 0 (successful).
+  INFO [cc3f8fe3] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases as serverpilot@157.230.116.54
+ DEBUG [cc3f8fe3] Command: /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases
+  INFO [cc3f8fe3] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [bfa81be1] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared/wp-content/uploads /srv/users/serverpilot/apps/helloearthinvader/shared/wp-content/cache as serverpilot@157.230.116.54
+ DEBUG [bfa81be1] Command: /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared/wp-content/uploads /srv/users/serverpilot/apps/helloearthinvader/shared/wp-content/cache
+  INFO [bfa81be1] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [12c5cd39] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared as serverpilot@157.230.116.54
+ DEBUG [12c5cd39] Command: /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared
+  INFO [12c5cd39] Finished in 0.109 seconds with exit status 0 (successful).
+ DEBUG [c207d6c9] Running [ -f /srv/users/serverpilot/apps/helloearthinvader/shared/wp-config.php ] as serverpilot@157.230.116.54
+ DEBUG [c207d6c9] Command: [ -f /srv/users/serverpilot/apps/helloearthinvader/shared/wp-config.php ]
+ DEBUG [c207d6c9] Finished in 0.151 seconds with exit status 1 (failed).
+ ERROR linked file /srv/users/serverpilot/apps/helloearthinvader/shared/wp-config.php does not exist on 157.230.116.54
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-09-01 14:03:48 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [c6bb6b12] Running /usr/bin/env mkdir -p /tmp as serverpilot@157.230.116.54
+ DEBUG [c6bb6b12] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c6bb6b12] Finished in 0.561 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 0.0%
+  INFO Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 100.0%
+  INFO [22c9ef72] Running /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh as serverpilot@157.230.116.54
+ DEBUG [22c9ef72] Command: /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh
+  INFO [22c9ef72] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [754a0d87] Running /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD as serverpilot@157.230.116.54
+ DEBUG [754a0d87] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD )
+ DEBUG [754a0d87] 	2ee62b327afe56b12c1a981d1fbb602cba1e42ff	HEAD
+  INFO [754a0d87] Finished in 1.512 seconds with exit status 0 (successful).
+  INFO [7880ca33] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases as serverpilot@157.230.116.54
+ DEBUG [7880ca33] Command: /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases
+  INFO [7880ca33] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-09-01 14:03:56 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [df898ae8] Running /usr/bin/env mkdir -p /tmp as serverpilot@157.230.116.54
+ DEBUG [df898ae8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [df898ae8] Finished in 0.550 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 0.0%
+  INFO Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 100.0%
+  INFO [64d24351] Running /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh as serverpilot@157.230.116.54
+ DEBUG [64d24351] Command: /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh
+  INFO [64d24351] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [9bb679fe] Running /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD as serverpilot@157.230.116.54
+ DEBUG [9bb679fe] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD )
+ DEBUG [9bb679fe] 	2ee62b327afe56b12c1a981d1fbb602cba1e42ff	HEAD
+  INFO [9bb679fe] Finished in 1.349 seconds with exit status 0 (successful).
+  INFO [7220efef] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases as serverpilot@157.230.116.54
+ DEBUG [7220efef] Command: /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases
+  INFO [7220efef] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-09-01 14:04:14 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9c708894] Running /usr/bin/env mkdir -p /tmp as serverpilot@157.230.116.54
+ DEBUG [9c708894] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9c708894] Finished in 0.565 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 0.0%
+  INFO Uploading /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh 100.0%
+  INFO [981e3e42] Running /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh as serverpilot@157.230.116.54
+ DEBUG [981e3e42] Command: /usr/bin/env chmod 700 /tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh
+  INFO [981e3e42] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [c7b1b6b4] Running /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD as serverpilot@157.230.116.54
+ DEBUG [c7b1b6b4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git ls-remote git@github.com:mathiasnovas/helloearthinvaderdotcom.git HEAD )
+ DEBUG [c7b1b6b4] 	2ee62b327afe56b12c1a981d1fbb602cba1e42ff	HEAD
+  INFO [c7b1b6b4] Finished in 1.392 seconds with exit status 0 (successful).
+  INFO [3887025c] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases as serverpilot@157.230.116.54
+ DEBUG [3887025c] Command: /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/shared /srv/users/serverpilot/apps/helloearthinvader/releases
+  INFO [3887025c] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [9f865e61] Running [ -f /srv/users/serverpilot/apps/helloearthinvader/current/REVISION ] as serverpilot@157.230.116.54
+ DEBUG [9f865e61] Command: [ -f /srv/users/serverpilot/apps/helloearthinvader/current/REVISION ]
+ DEBUG [9f865e61] Finished in 0.149 seconds with exit status 1 (failed).
+ DEBUG [7250b512] Running [ -f /srv/users/serverpilot/apps/helloearthinvader/repo/HEAD ] as serverpilot@157.230.116.54
+ DEBUG [7250b512] Command: [ -f /srv/users/serverpilot/apps/helloearthinvader/repo/HEAD ]
+ DEBUG [7250b512] Finished in 0.107 seconds with exit status 1 (failed).
+ DEBUG [5b56a3c8] Running if test ! -d /srv/users/serverpilot/apps/helloearthinvader; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader'" 1>&2; false; fi as serverpilot@157.230.116.54
+ DEBUG [5b56a3c8] Command: if test ! -d /srv/users/serverpilot/apps/helloearthinvader; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader'" 1>&2; false; fi
+ DEBUG [5b56a3c8] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [86df7504] Running /usr/bin/env git clone --mirror git@github.com:mathiasnovas/helloearthinvaderdotcom.git /srv/users/serverpilot/apps/helloearthinvader/repo as serverpilot@157.230.116.54
+ DEBUG [86df7504] Command: cd /srv/users/serverpilot/apps/helloearthinvader && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git clone --mirror git@github.com:mathiasnovas/helloearthinvaderdotcom.git /srv/users/serverpilot/apps/helloearthinvader/repo )
+ DEBUG [86df7504] 	Cloning into bare repository '/srv/users/serverpilot/apps/helloearthinvader/repo'...
+  INFO [86df7504] Finished in 7.970 seconds with exit status 0 (successful).
+ DEBUG [49139bbb] Running if test ! -d /srv/users/serverpilot/apps/helloearthinvader/repo; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/repo'" 1>&2; false; fi as serverpilot@157.230.116.54
+ DEBUG [49139bbb] Command: if test ! -d /srv/users/serverpilot/apps/helloearthinvader/repo; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/repo'" 1>&2; false; fi
+ DEBUG [49139bbb] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [d2d79bc9] Running /usr/bin/env git remote set-url origin git@github.com:mathiasnovas/helloearthinvaderdotcom.git as serverpilot@157.230.116.54
+ DEBUG [d2d79bc9] Command: cd /srv/users/serverpilot/apps/helloearthinvader/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git remote set-url origin git@github.com:mathiasnovas/helloearthinvaderdotcom.git )
+  INFO [d2d79bc9] Finished in 0.157 seconds with exit status 0 (successful).
+  INFO [245f4091] Running /usr/bin/env git remote update --prune as serverpilot@157.230.116.54
+ DEBUG [245f4091] Command: cd /srv/users/serverpilot/apps/helloearthinvader/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [245f4091] 	Fetching origin
+  INFO [245f4091] Finished in 1.271 seconds with exit status 0 (successful).
+ DEBUG [aee97596] Running if test ! -d /srv/users/serverpilot/apps/helloearthinvader/repo; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/repo'" 1>&2; false; fi as serverpilot@157.230.116.54
+ DEBUG [aee97596] Command: if test ! -d /srv/users/serverpilot/apps/helloearthinvader/repo; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/repo'" 1>&2; false; fi
+ DEBUG [aee97596] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [8141854a] Running /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 as serverpilot@157.230.116.54
+ DEBUG [8141854a] Command: cd /srv/users/serverpilot/apps/helloearthinvader/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env mkdir -p /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 )
+  INFO [8141854a] Finished in 0.161 seconds with exit status 0 (successful).
+  INFO [1a44c0d4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 as serverpilot@157.230.116.54
+ DEBUG [1a44c0d4] Command: cd /srv/users/serverpilot/apps/helloearthinvader/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 )
+  INFO [1a44c0d4] Finished in 0.285 seconds with exit status 0 (successful).
+ DEBUG [650c45c8] Running if test ! -d /srv/users/serverpilot/apps/helloearthinvader/repo; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/repo'" 1>&2; false; fi as serverpilot@157.230.116.54
+ DEBUG [650c45c8] Command: if test ! -d /srv/users/serverpilot/apps/helloearthinvader/repo; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/repo'" 1>&2; false; fi
+ DEBUG [650c45c8] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [e7096f5e] Running /usr/bin/env git rev-list --max-count=1 master as serverpilot@157.230.116.54
+ DEBUG [e7096f5e] Command: cd /srv/users/serverpilot/apps/helloearthinvader/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-helloearthinvader-production-mathiasnovas.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [e7096f5e] 	2ee62b327afe56b12c1a981d1fbb602cba1e42ff
+ DEBUG [e7096f5e] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [ede0794b] Running if test ! -d /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417'" 1>&2; false; fi as serverpilot@157.230.116.54
+ DEBUG [ede0794b] Command: if test ! -d /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417'" 1>&2; false; fi
+ DEBUG [ede0794b] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [e734cc48] Running /usr/bin/env echo "2ee62b327afe56b12c1a981d1fbb602cba1e42ff" > REVISION as serverpilot@157.230.116.54
+ DEBUG [e734cc48] Command: cd /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 && /usr/bin/env echo "2ee62b327afe56b12c1a981d1fbb602cba1e42ff" > REVISION
+  INFO [e734cc48] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [69786d21] Running /usr/bin/env ln -s /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 /srv/users/serverpilot/apps/helloearthinvader/releases/current as serverpilot@157.230.116.54
+ DEBUG [69786d21] Command: /usr/bin/env ln -s /srv/users/serverpilot/apps/helloearthinvader/releases/20200901120417 /srv/users/serverpilot/apps/helloearthinvader/releases/current
+  INFO [69786d21] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [4bea3cfd] Running /usr/bin/env mv /srv/users/serverpilot/apps/helloearthinvader/releases/current /srv/users/serverpilot/apps/helloearthinvader as serverpilot@157.230.116.54
+ DEBUG [4bea3cfd] Command: /usr/bin/env mv /srv/users/serverpilot/apps/helloearthinvader/releases/current /srv/users/serverpilot/apps/helloearthinvader
+  INFO [4bea3cfd] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [b2097361] Running /usr/bin/env ls -x /srv/users/serverpilot/apps/helloearthinvader/releases as serverpilot@157.230.116.54
+ DEBUG [b2097361] Command: /usr/bin/env ls -x /srv/users/serverpilot/apps/helloearthinvader/releases
+ DEBUG [b2097361] 	20200901120417
+ DEBUG [b2097361] Finished in 0.160 seconds with exit status 0 (successful).
+ DEBUG [f8586a01] Running if test ! -d /srv/users/serverpilot/apps/helloearthinvader/releases; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/releases'" 1>&2; false; fi as serverpilot@157.230.116.54
+ DEBUG [f8586a01] Command: if test ! -d /srv/users/serverpilot/apps/helloearthinvader/releases; then echo "Directory does not exist '/srv/users/serverpilot/apps/helloearthinvader/releases'" 1>&2; false; fi
+ DEBUG [f8586a01] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [ebdf8bba] Running /usr/bin/env echo "Branch master (at 2ee62b327afe56b12c1a981d1fbb602cba1e42ff) deployed as release 20200901120417 by mathiasnovas" >> /srv/users/serverpilot/apps/helloearthinvader/revisions.log as serverpilot@157.230.116.54
+ DEBUG [ebdf8bba] Command: cd /srv/users/serverpilot/apps/helloearthinvader/releases && /usr/bin/env echo "Branch master (at 2ee62b327afe56b12c1a981d1fbb602cba1e42ff) deployed as release 20200901120417 by mathiasnovas" >> /srv/users/serverpilot/apps/helloearthinvader/revisions.log
+  INFO [ebdf8bba] Finished in 0.143 seconds with exit status 0 (successful).

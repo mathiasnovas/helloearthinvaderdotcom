@@ -50,11 +50,12 @@ $pageTitle = $currentPage['slug'] === 'home'
                 <section class="section">
                     <div class="frontpage-video">
                         <div class="frontpage-video__links">
-                            <a href="https://www.youtube.com/watch?v=k0sjOiAdkTs" target="_blank">Watch the video</a>
-                            <a href="https://ampl.ink/G6MaX" target="_blank">Listen to the single</a>
+                            <a href="https://distrokid.com/hyperfollow/earthinvader/hi-whos-this" target="_blank">Pre-save the EP</a>
+                            <a href="https://www.youtube.com/watch?v=Ktbhz5Wi8rU" target="_blank">'Empty Moons' video premiere</a>
+                            <!-- <a href="https://ampl.ink/G6MaX" target="_blank">Listen to the single</a> -->
                         </div>
                         <video autoplay muted loop playsinline>
-                            <source src="/assets/video/bg.mp4">
+                            <source src="/assets/video/hiwhosthisloop.mp4">
                         </video>
                     </div>
 

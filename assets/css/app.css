@@ -167,7 +167,7 @@ body.page-home .header {
     }
     .frontpage-video__links {
         position: absolute;
-        top: 50%;
+        top: 67%;
         transform: transitionY(-50%);
         width: 100%;
         display: flex;
@@ -232,3 +232,15 @@ body:not(.page-home) .main-navigation {
         text-decoration: underline;
         font-weight: bold;
     }
+
+/* Frontpage logo */
+.front-page-logo {
+    mix-blend-mode: difference;
+    width: 500px;
+    max-width: 70vw;
+    margin-top: 100px;
+}
+
+.frontpage-links {
+    mix-blend-mode: difference;
+}

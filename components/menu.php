@@ -14,6 +14,7 @@
         </div>
 
         <div class="main-navigation-section some">
+            <a target="_blank" href="https://open.spotify.com/artist/1VexfVfVaU4Ri5FjEl24Vv?si=BDrD8E2ZRxe5_jWq8C1jbA">Spotify</a>
             <a target="_blank" href="https://instagram.com/helloearthinvaderdotcom">Instagram</a>
             <a target="_blank" href="https://www.youtube.com/channel/UC5Lor2dlw31hKfLR9Tn09hg">YouTube</a>
             <a target="_blank" href="https://soundcloud.com/helloearthinvader">SoundCloud</a>

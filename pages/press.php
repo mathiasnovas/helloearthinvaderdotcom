@@ -1,9 +1,14 @@
 <div class="container">
-    <p>Yess.</p>
-
     <video data-aos="fade-in" autoplay muted loop playsinline style="max-width: 100%; width; 100%; margin-top: 1rem;">
         <source src="/assets/video/press.mp4">
     </video>
+
+    <br>
+    <br>
+    <h2>P3 Urørt recommends</h2>
+    <p>Earth Invader and Klaramek's track <i>Don't Rush</i> got recommended by NRK P3 Urørt.</p>
+    <p><a href="https://urort.p3.no/track/earth-invader/dont-rush-feat-klaramek">https://urort.p3.no/track/earth-invader/dont-rush-feat-klaramek</a></p>
+    <br>
 
     <h2>Pics</h2>
     <p>By the lovely <a href="https://www.instagram.com/toniagost/" target="_blank">toni</a>.</p>

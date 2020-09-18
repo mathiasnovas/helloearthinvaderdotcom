@@ -31,6 +31,7 @@ $pageTitle = $currentPage['slug'] === 'home'
 
         <!-- Stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/dsw5sfe.css">
         <link href="/assets/css/vendor/aos.css" rel="stylesheet" />
         <link href="/assets/css/app.css" rel="stylesheet">
 

@@ -16,7 +16,11 @@ body {
 h1, h2, h3, h4, h5 {}
 
 .h-display {
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: balboa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -104,14 +108,15 @@ body.page-home .header {
     margin-top: 0;
     z-index: 2;
     pointer-events: none;
+    padding-top: 20vh;
 }
     .header .h-display {
         margin-top: 80px;
         margin-bottom: 0;
         font-weight: bold;
         mix-blend-mode: difference;
-        color: green;
-        text-shadow: 0 0 10px green;
+        color: #fff;
+        /* text-shadow: 0 0 10px #fff; */
         user-select: none;
         text-align: center;
     }
@@ -129,7 +134,7 @@ body.page-home .header {
     @media screen and (min-width: 1024px) {
         .header h1.h-display {
             margin-top: 60px;
-            font-size: 120px;
+            font-size: 140px;
         }
     }
 
@@ -146,8 +151,29 @@ body.page-home .header {
 
     @media screen and (min-width: 1024px) {
         .header h2.h-display {
-            margin-top: 48px;
+            margin-top: 0;
             font-size: 80px;
+        }
+    }
+
+    .header h3.h-display {
+        margin-top: 0;
+        font-size: 22px;
+        font-family: balboa-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @media screen and (min-width: 767px) {
+        .header h3.h-display {
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .header h3.h-display {
+            margin-top: 0;
+            font-size: 48px;
         }
     }
 
@@ -237,7 +263,7 @@ body:not(.page-home) .main-navigation {
 .front-page-logo {
     mix-blend-mode: difference;
     width: 500px;
-    max-width: 70vw;
+    max-width: 60vw;
     margin-top: 100px;
 }
 
